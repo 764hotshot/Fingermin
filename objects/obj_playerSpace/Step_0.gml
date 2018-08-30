@@ -12,16 +12,16 @@ if(InvincibleFrames >= 60)
 	InvincibleFrames = 0;
 }
 
-script_execute(PlayerMove);
+script_execute(PlayerMoveSpace);
 
 
-script_execute(ScreenWrap);
+script_execute(ScreenWrapSpace);
 
 if (keyboard_check(vk_shift) = true)
 {
 	if(IsHit == false)
 	{
-		dashing = false;
+		global.dashing = false;
 	}
 }
 
@@ -33,7 +33,7 @@ if(__dnd_lives <= 0)
 
 if(cooldown >= 10)
 {
-	if(dashing == false)
+	if(global.dashing = false)
 	{
 		if (keyboard_check(vk_space) = true)
 		{

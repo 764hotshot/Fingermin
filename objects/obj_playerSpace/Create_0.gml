@@ -1,12 +1,11 @@
+global.PlayerX = 480;
+
 IsHit = false;
 
 InvincibleFrames = 0;
 
 cooldown = 10;
 
-dashing = false;
-
-global.PlayerX = 480;
-
+global.dashing = false;
 
 __dnd_lives = real(5);

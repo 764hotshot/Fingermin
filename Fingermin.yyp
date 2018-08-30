@@ -178,7 +178,7 @@
             "Key": "558ea833-d3a9-400c-b9b7-d5ec33e129b9",
             "Value": {
                 "id": "82aafdda-3197-4fb8-8bf4-0ea801ae70fb",
-                "resourcePath": "scripts\\PlayerMove\\PlayerMove.yy",
+                "resourcePath": "scripts\\PlayerMoveSpace\\PlayerMoveSpace.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -346,7 +346,7 @@
             "Key": "ac9bb11a-f81e-4ef9-80e0-6291677837be",
             "Value": {
                 "id": "89068ea4-ff25-4afd-aad1-7af1cac70163",
-                "resourcePath": "objects\\obj_player\\obj_player.yy",
+                "resourcePath": "objects\\obj_playerSpace\\obj_playerSpace.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -434,7 +434,7 @@
             "Key": "f6590f37-3495-43f9-beff-ee2970aab985",
             "Value": {
                 "id": "9a25dc66-be45-4af0-bd7d-48ea56f39f41",
-                "resourcePath": "sprites\\spr_PlayerIdle\\spr_PlayerIdle.yy",
+                "resourcePath": "sprites\\spr_PlayerSpace\\spr_PlayerSpace.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -450,7 +450,7 @@
             "Key": "ff937d81-4150-4321-846d-7e89f0cb5ece",
             "Value": {
                 "id": "71a37b53-4fc0-477b-8c07-ddf00bd93038",
-                "resourcePath": "scripts\\ScreenWrap\\ScreenWrap.yy",
+                "resourcePath": "scripts\\ScreenWrapSpace\\ScreenWrapSpace.yy",
                 "resourceType": "GMScript"
             }
         }

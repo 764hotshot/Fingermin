@@ -23,7 +23,7 @@ if (keyboard_check(vk_shift) = true)
 		x += 10;
 		y += 0;
 	
-		dashing = true;
+		global.dashing = true;
 	
 		global.PlayerX += 10;
 	}
@@ -33,7 +33,7 @@ if (keyboard_check(vk_shift) = true)
 		x += -10;
 		y += 0;
 	
-		dashing = true;
+		global.dashing = true;
 	
 		global.PlayerX += -10;
 	}
