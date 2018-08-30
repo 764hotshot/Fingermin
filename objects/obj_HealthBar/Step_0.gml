@@ -7,9 +7,11 @@ global.BossHPScale = 0;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 5B0497EA
+/// @DnDInput : 2
 /// @DnDArgument : "value" "global.BossHP/25"
 /// @DnDArgument : "var" "BossHPScale"
 global.BossHPScale = global.BossHP/25;
+global.variable = 0;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
