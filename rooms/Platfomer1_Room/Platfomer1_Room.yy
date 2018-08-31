@@ -7,7 +7,7 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-
+        "92dd28db-bd56-43f3-8a62-626382b92a9d"
     ],
     "IsDnD": true,
     "layers": [
@@ -60,7 +60,7 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Instances",
+            "name": "Player_Layer",
             "id": "81521dfa-cd76-42e4-b102-28504ebb7d47",
             "depth": 100,
             "grid_x": 32,
@@ -72,7 +72,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_31C38B00","id": "92dd28db-bd56-43f3-8a62-626382b92a9d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_31C38B00","objId": "ed58f7ec-df2a-44f0-8f44-32f2a56f4753","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 448,"y": 512}
             ],
             "layers": [
 

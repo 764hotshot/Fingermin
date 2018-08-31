@@ -426,7 +426,7 @@
             "Key": "ed58f7ec-df2a-44f0-8f44-32f2a56f4753",
             "Value": {
                 "id": "d6867df2-94a9-4ab9-b387-fc0a1355f846",
-                "resourcePath": "objects\\object8\\object8.yy",
+                "resourcePath": "objects\\obj_playerLand\\obj_playerLand.yy",
                 "resourceType": "GMObject"
             }
         },
