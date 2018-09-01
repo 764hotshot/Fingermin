@@ -8,7 +8,7 @@ hsp = move * walksp;
 
 vsp = vsp + grv;
 
-if (place_meeting(x, y+1, obj_wall)) and (key_jump)
+if ((place_meeting(x, y+1, obj_wall)) || (place_meeting(x + 1, y, obj_wall)) || (place_meeting(x - 1, y, obj_wall))) and (key_jump)
 {
 	vsp = -20;
 }
