@@ -1,1 +1,1 @@
-room_goto(Boss_Room);
+room_goto(Platfomer1_Room);
