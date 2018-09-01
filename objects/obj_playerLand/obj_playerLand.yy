@@ -1,28 +1,28 @@
 {
-    "id": "ed58f7ec-df2a-44f0-8f44-32f2a56f4753",
+    "id": "2767b4a5-ce30-4ff1-ba11-7a77c5d2a7de",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_playerLand",
     "eventList": [
         {
-            "id": "f7801ea5-390c-4ed3-8490-671ee0ae015f",
+            "id": "063137b5-70d0-4fda-97ed-0aa70bbee70e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "ed58f7ec-df2a-44f0-8f44-32f2a56f4753"
+            "m_owner": "2767b4a5-ce30-4ff1-ba11-7a77c5d2a7de"
         },
         {
-            "id": "d9fa3a24-c75a-40b8-bae1-afcacb46a39c",
+            "id": "348b7a79-7b9e-40a1-b192-9df177129290",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "ed58f7ec-df2a-44f0-8f44-32f2a56f4753"
+            "m_owner": "2767b4a5-ce30-4ff1-ba11-7a77c5d2a7de"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -39,36 +39,7 @@
     "physicsRestitution": 0.1,
     "physicsSensor": false,
     "physicsShape": 1,
-    "physicsShapePoints": [
-        {
-            "id": "0d423e8d-a7df-493c-858d-c3b1c09c28cc",
-            "modelName": "GMPoint",
-            "mvc": "1.0",
-            "x": 0,
-            "y": 0
-        },
-        {
-            "id": "54e2b77d-f7ec-4417-a117-0cbe7e7d996f",
-            "modelName": "GMPoint",
-            "mvc": "1.0",
-            "x": 100,
-            "y": 0
-        },
-        {
-            "id": "1670c297-f96e-4716-963a-ab00a6a53e0c",
-            "modelName": "GMPoint",
-            "mvc": "1.0",
-            "x": 100,
-            "y": 100
-        },
-        {
-            "id": "fb5cb1ae-d331-4097-9c8f-867304820443",
-            "modelName": "GMPoint",
-            "mvc": "1.0",
-            "x": 0,
-            "y": 100
-        }
-    ],
+    "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,

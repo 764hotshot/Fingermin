@@ -39,14 +39,6 @@
             }
         },
         {
-            "Key": "097ef70a-a1cf-4ab4-bc02-2978433f1e2d",
-            "Value": {
-                "id": "54601fde-aea0-469e-97a2-9fe41f99312a",
-                "resourcePath": "sprites\\spr_collision\\spr_collision.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0ab07740-9ca5-4bed-8065-16c6ea8947eb",
             "Value": {
                 "id": "bee46b83-cd9f-4c87-83ea-c93b57f3ad09",
@@ -103,6 +95,14 @@
             }
         },
         {
+            "Key": "2767b4a5-ce30-4ff1-ba11-7a77c5d2a7de",
+            "Value": {
+                "id": "51c48d28-7b10-4e4b-b22c-b03e112c84c3",
+                "resourcePath": "objects\\obj_playerLand\\obj_playerLand.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2b9b4a5d-d8b0-4277-b309-d5df18f0941f",
             "Value": {
                 "id": "89fde904-6247-4b18-a4fd-416ae08e3292",
@@ -131,6 +131,14 @@
             "Value": {
                 "id": "08938c43-900f-47bb-9105-e09386e58276",
                 "resourcePath": "objects\\obj_Boss\\obj_Boss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "44c756b4-144a-4a0a-836c-9717304d17f2",
+            "Value": {
+                "id": "60d21327-98f7-405c-9c8e-bac96a289a7a",
+                "resourcePath": "objects\\obj_wall\\obj_wall.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -239,6 +247,14 @@
             }
         },
         {
+            "Key": "84152c36-7224-4569-b915-e7b6cc43f1e5",
+            "Value": {
+                "id": "b127e7ec-0583-4dab-bd1a-f2ed8803b3c2",
+                "resourcePath": "sprites\\spr_wall\\spr_wall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8c580b04-bc5c-4656-babf-ae165138d7af",
             "Value": {
                 "id": "92b9cf5e-1d4a-4e22-a12b-9d9d6fe37f33",
@@ -284,14 +300,6 @@
                 "id": "cf09122c-bb13-4b91-bf93-cfafa1f0573b",
                 "resourcePath": "sprites\\spr_playerLand\\spr_playerLand.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a4b59ccf-e343-471b-a0c0-fb8122b86545",
-            "Value": {
-                "id": "44122694-bc7e-4130-9044-e03399d3a268",
-                "resourcePath": "tilesets\\til_collision\\til_collision.yy",
-                "resourceType": "GMTileSet"
             }
         },
         {
@@ -420,14 +428,6 @@
                 "id": "2f2b2914-7fba-4c30-9289-5671ac17e4d7",
                 "resourcePath": "sprites\\Lives\\Lives.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "ed58f7ec-df2a-44f0-8f44-32f2a56f4753",
-            "Value": {
-                "id": "d6867df2-94a9-4ab9-b387-fc0a1355f846",
-                "resourcePath": "objects\\obj_playerLand\\obj_playerLand.yy",
-                "resourceType": "GMObject"
             }
         },
         {
