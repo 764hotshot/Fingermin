@@ -37,7 +37,7 @@ if(cooldown >= 10)
 	{
 		if (keyboard_check(vk_space) = true)
 		{
-			instance_create_layer(global.PlayerX, 650, "Shot_Layer", obj_Shot);
+			instance_create_layer(global.PlayerX, 650, "Shot_Layer", obj_ShotSpace);
 		
 			cooldown = 0;
 		}

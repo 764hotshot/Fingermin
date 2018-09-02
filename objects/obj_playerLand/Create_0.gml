@@ -2,6 +2,6 @@ hsp = 0;
 
 vsp = 0;
 
-grv = 1.3;
+grv = 0.7;
 
-walksp = 10;
+walksp = 5;

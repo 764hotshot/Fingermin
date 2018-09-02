@@ -1,0 +1,1 @@
+shootWait = 0;

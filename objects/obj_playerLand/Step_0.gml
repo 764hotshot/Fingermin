@@ -1,6 +1,6 @@
-key_right = keyboard_check(vk_right);
-key_left = keyboard_check(vk_left);
-key_jump = keyboard_check(vk_up);
+key_right = keyboard_check(ord("D"));
+key_left = keyboard_check(ord("A"));
+key_jump = keyboard_check(ord("W"));
 
 var move = key_right - key_left;
 
@@ -10,7 +10,7 @@ vsp = vsp + grv;
 
 if ((place_meeting(x, y+1, obj_wall)) || (place_meeting(x + 1, y, obj_wall)) || (place_meeting(x - 1, y, obj_wall))) and (key_jump)
 {
-	vsp = -20;
+	vsp = -15;
 }
 
 
