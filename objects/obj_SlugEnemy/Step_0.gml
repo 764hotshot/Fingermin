@@ -1,16 +1,20 @@
-enhsp = 2.5;
+if (directionswap = false) enhsp = 2;
+
+else enhsp = -2;
 
 envsp = envsp + engrv;
 
-if (place_meeting(x + enhsp, y, obj_wall))
-	
-	while (!place_meeting(x + sign(enhsp), y,obj_wall))
+if (place_meeting(x + enhsp, y, obj_enwall))
+{	
+	while (!place_meeting(x + sign(enhsp), y,obj_enwall))
 	{
 		x = x + sign(enhsp);
 	}
-	//if (enhsp != 0) image_xscale = sign(!enhsp);
+	//directionswap = (!directionswap)
+	//if (directionswap = true) image_xscale = -1;
+	//else image_xscale = 1;
 	enhsp = 0;
-
+}
 
 if (place_meeting(x, y + envsp, obj_wall))
 {
@@ -21,7 +25,7 @@ if (place_meeting(x, y + envsp, obj_wall))
 	envsp = 0;
 }
 
-x += 2.5
+x += enhsp
 
 y += envsp
 
