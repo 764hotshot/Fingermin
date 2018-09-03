@@ -1,6 +1,6 @@
 
 {
-    "name": "Boss_Room",
+    "name": "Boss1_Room",
     "id": "8e816cc3-d527-41fd-ab90-4f668e9dcfaa",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,

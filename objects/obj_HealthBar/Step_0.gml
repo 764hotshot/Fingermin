@@ -6,5 +6,5 @@ global.variable = 0;
 image_xscale = global.BossHPScale;
 image_yscale += 0;
 
-x = xstart;
-y = ystart;
+x = 512;
+

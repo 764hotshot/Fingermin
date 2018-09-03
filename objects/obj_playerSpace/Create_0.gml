@@ -4,8 +4,8 @@ IsHit = false;
 
 InvincibleFrames = 0;
 
-cooldown = 10;
+cooldown = 20;
 
 global.dashing = false;
 
-__dnd_lives = real(5);
+lives = 5;

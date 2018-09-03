@@ -6,15 +6,15 @@ MoveChangeWait += 1;
 
 if(MoveChangeWait >= 60)
 {
-	EnemyMovement = random_range(15, -15);
+	EnemyMovement = random_range(7, -7);
 
 	hspeed = EnemyMovement;
 
 	MoveChangeWait = 0;
 }
 
-if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-if(__dnd_health <= 0)
+if(!variable_instance_exists(id, "health")) health = 0;
+if(health <= 0)
 {
 	room_goto(WinScreen_Room);
 }

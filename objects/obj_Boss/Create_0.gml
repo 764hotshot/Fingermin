@@ -1,7 +1,7 @@
 MoveChangeWait = 60;
 
 
-__dnd_health = real(25);
+health = 25;
 
 LightningWait = 0;
 

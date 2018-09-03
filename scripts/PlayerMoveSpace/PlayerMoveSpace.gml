@@ -1,5 +1,5 @@
 
-if (keyboard_check(vk_left) = true)
+if (keyboard_check(ord("A")) = true)
 {
 	x += -5;
 	y += 0;
@@ -7,7 +7,7 @@ if (keyboard_check(vk_left) = true)
 	global.PlayerX += -5;
 }
 
-if (keyboard_check(vk_right) = true)
+if (keyboard_check(ord("D")) = true)
 {
 	global.PlayerX += 5;
 
@@ -18,7 +18,7 @@ if (keyboard_check(vk_right) = true)
 if (keyboard_check(vk_shift) = true)
 {
 
-	if (keyboard_check(vk_right) = true)
+	if (keyboard_check(ord("D")) = true)
 	{
 		x += 10;
 		y += 0;
@@ -28,7 +28,7 @@ if (keyboard_check(vk_shift) = true)
 		global.PlayerX += 10;
 	}
 
-	if (keyboard_check(vk_left) = true)
+	if (keyboard_check(ord("A")) = true)
 	{
 		x += -10;
 		y += 0;

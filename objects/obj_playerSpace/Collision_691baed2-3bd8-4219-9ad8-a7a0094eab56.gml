@@ -1,7 +1,7 @@
 if(IsHit == false)
 {
-	if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
-	__dnd_lives += real(-1);
+	if(!variable_instance_exists(id, "lives")) lives = 0;
+	lives += -1;
 
 	IsHit = true;
 
