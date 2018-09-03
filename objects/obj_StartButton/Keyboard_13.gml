@@ -1,1 +1,0 @@
-room_goto(Platfomer1_Room);

@@ -1,9 +1,7 @@
 engrv = 0.3;
 
-enhsp = 0;
+enhsp = 3;
 
 envsp = 0;
 
-health = 100
-
-directionswap = false
+hp = 100

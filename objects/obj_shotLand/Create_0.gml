@@ -1,4 +1,4 @@
-direction = point_direction(x, y, mouse_x, mouse_y + random_range(40, -40));
+direction = point_direction(x, y, mouse_x, mouse_y);
 
 image_angle = direction;
 

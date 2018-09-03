@@ -9,7 +9,6 @@
     "instanceCreationOrderIDs": [
         "6f6ab955-09d2-4355-b7b2-4c139540e023",
         "21469426-1d91-49c1-a11c-c8d5c6d06e2d",
-        "1cee94ed-dfc1-45bb-9eb4-19f0ea957ebd",
         "88708eaa-3d44-4cf4-8992-2d75389d525f",
         "04b82ce2-8b6d-4b37-b84c-73cdd588e4c1",
         "4632eb89-846f-4d42-8004-0a5a3de32486",
@@ -51,7 +50,7 @@
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
-            "hierarchyVisible": true,
+            "hierarchyVisible": false,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -70,40 +69,13 @@
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
             "userdefined_depth": false,
-            "visible": true
-        },
-        {
-            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Instances",
-            "id": "c642762f-a7b4-48c3-b3df-41301b385695",
-            "depth": 200,
-            "grid_x": 32,
-            "grid_y": 32,
-            "hierarchyFrozen": false,
-            "hierarchyVisible": true,
-            "inheritLayerDepth": false,
-            "inheritLayerSettings": false,
-            "inheritSubLayers": false,
-            "inheritVisibility": false,
-            "instances": [
-{"name": "inst_733CEE12","id": "1cee94ed-dfc1-45bb-9eb4-19f0ea957ebd","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_733CEE12","objId": "54529314-1c1f-4986-9005-14ab279eea00","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 1078,"y": 731},
-{"name": "inst_1EA3248A","id": "b9b02bd9-70c5-4dfc-beb1-8114ee635ffc","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_1EA3248A.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1EA3248A","objId": "1653bf62-e785-46aa-a750-af967efc5abf","properties": null,"rotation": 0,"scaleX": 0.5153061,"scaleY": 0.5862069,"mvc": "1.0","x": 1022,"y": 624}
-            ],
-            "layers": [
-
-            ],
-            "m_parentID": "00000000-0000-0000-0000-000000000000",
-            "m_serialiseFrozen": false,
-            "modelName": "GMRInstanceLayer",
-            "mvc": "1.0",
-            "userdefined_depth": false,
-            "visible": true
+            "visible": false
         },
         {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Tiles",
             "id": "adb829cd-0b1d-416e-bfcf-b84d63f92018",
-            "depth": 300,
+            "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -157,6 +129,32 @@
             "visible": true,
             "x": 0,
             "y": 0
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Instances",
+            "id": "c642762f-a7b4-48c3-b3df-41301b385695",
+            "depth": 300,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_1EA3248A","id": "b9b02bd9-70c5-4dfc-beb1-8114ee635ffc","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_1EA3248A.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1EA3248A","objId": "1653bf62-e785-46aa-a750-af967efc5abf","properties": null,"rotation": 0,"scaleX": 0.5153061,"scaleY": 0.5862069,"mvc": "1.0","x": 1022,"y": 622}
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
         },
         {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",

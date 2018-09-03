@@ -10,6 +10,8 @@ vsp = vsp + grv;
 
 WallJumpWait ++
 
+InvincibleFrames ++
+
 if ((place_meeting(x, y+1, obj_wall))) && (key_jump)
 {
 	vsp = -15;
