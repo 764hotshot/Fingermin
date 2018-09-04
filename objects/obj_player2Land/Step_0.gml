@@ -1,6 +1,12 @@
-key_right = keyboard_check(ord("D"));
-key_left = keyboard_check(ord("A"));
-key_jump = keyboard_check(ord("W"));
+if (abs(gamepad_axis_value(0, gp_axislh)) > 0.2)
+{
+
+	key_right = abs(min(gamepad_axis_value(0, gp_axislh), 0));
+	key_left = max(gamepad_axis_value(0, gp_axislh), 0);
+	
+}
+
+if (gamepad_button_check_pressed(0, gp_face1)) key_jump = 1;
 
 var move = key_right - key_left;
 

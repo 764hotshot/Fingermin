@@ -10,4 +10,10 @@ WallJumpWait = 0;
 
 InvincibleFrames = 0;
 
-if (global.TwoPlayer = true) instance_destroy();
+if (global.TwoPlayer = false) instance_destroy();
+
+key_right = 0;
+
+key_left = 0;
+
+key_jump = 0;

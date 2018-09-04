@@ -1,2 +1,2 @@
-x = targetplayer.x
-y = targetplayer.y + 10
+x = obj_player2Land.x
+y = obj_player2Land.y + 10

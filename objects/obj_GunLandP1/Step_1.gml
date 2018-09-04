@@ -1,2 +1,2 @@
-x = obj_GunLandP1.x
-y = obj_GunLandP1.y + 10
+x = obj_player1Land.x
+y = obj_player1Land.y + 10

@@ -1,2 +1,2 @@
 vspeed = -5
-with (obj_playerLand) instance_destroy()
+with (obj_player1Land) instance_destroy()
