@@ -5,16 +5,6 @@
     "name": "obj_shotLand",
     "eventList": [
         {
-            "id": "60cb8155-7238-4518-bfef-47a1a7fcf506",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "ad37f3db-7958-49bf-9f4e-f52915953dd6"
-        },
-        {
             "id": "610463c9-1a05-4801-9cfd-7260673cd40d",
             "modelName": "GMEvent",
             "mvc": "1.0",

@@ -12,7 +12,8 @@
         "88708eaa-3d44-4cf4-8992-2d75389d525f",
         "04b82ce2-8b6d-4b37-b84c-73cdd588e4c1",
         "4632eb89-846f-4d42-8004-0a5a3de32486",
-        "b9b02bd9-70c5-4dfc-beb1-8114ee635ffc"
+        "b9b02bd9-70c5-4dfc-beb1-8114ee635ffc",
+        "11a89a1e-8c3c-467f-8775-921bf0126777"
     ],
     "IsDnD": true,
     "layers": [
@@ -30,7 +31,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_2FD30063","id": "21469426-1d91-49c1-a11c-c8d5c6d06e2d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2FD30063","objId": "2767b4a5-ce30-4ff1-ba11-7a77c5d2a7de","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 611,"y": 496}
+{"name": "inst_2FD30063","id": "21469426-1d91-49c1-a11c-c8d5c6d06e2d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2FD30063","objId": "2767b4a5-ce30-4ff1-ba11-7a77c5d2a7de","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 611,"y": 496},
+{"name": "inst_82D5A66","id": "11a89a1e-8c3c-467f-8775-921bf0126777","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_82D5A66","objId": "22435518-de5f-440b-955e-cfeb4116439b","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 561,"y": 500}
             ],
             "layers": [
 
@@ -50,7 +52,7 @@
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
-            "hierarchyVisible": true,
+            "hierarchyVisible": false,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -69,7 +71,7 @@
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
             "userdefined_depth": false,
-            "visible": true
+            "visible": false
         },
         {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",

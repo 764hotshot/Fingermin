@@ -19,10 +19,10 @@ script_execute(ScreenWrapSpace);
 
 if (keyboard_check(vk_shift) = true)
 {
-	if(IsHit == false)
-	{
-		global.dashing = false;
-	}
+	
+	
+	global.dashing = false;
+	
 }
 
 if(!variable_instance_exists(id, "lives")) lives = 0;

@@ -1,6 +1,2 @@
-with (obj_playerLand)
-{
-	x = xstart
-	y = ystart
-}
+global.coins = global.TotalCoins
 room_restart()

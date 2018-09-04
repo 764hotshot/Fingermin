@@ -1,1 +1,1 @@
-checkinvis = 0;
+global.TwoPlayer = 0;

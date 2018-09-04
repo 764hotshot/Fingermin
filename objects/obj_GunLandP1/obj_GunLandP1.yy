@@ -2,7 +2,7 @@
     "id": "34aa8233-ef82-4f53-8ab1-1d88284267b7",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_GunLand",
+    "name": "obj_GunLandP1",
     "eventList": [
         {
             "id": "11910795-60d0-44bc-81ba-d5c86bdb2210",

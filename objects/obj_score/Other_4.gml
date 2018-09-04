@@ -1,0 +1,1 @@
+global.TotalCoins = global.coins

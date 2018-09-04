@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0c240929-a950-43b0-9f11-3a844082e268",
+            "Value": {
+                "id": "34c84408-f580-4058-a7ed-d5633eabc700",
+                "resourcePath": "objects\\obj_StartButton2P\\obj_StartButton2P.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "11a03c7e-c7d5-4774-9189-da7d92dddc4f",
             "Value": {
                 "id": "2bbd2616-2894-49ec-b76d-622955d3a21c",
@@ -103,11 +111,27 @@
             }
         },
         {
+            "Key": "22435518-de5f-440b-955e-cfeb4116439b",
+            "Value": {
+                "id": "07a7cc6d-ae2d-474c-8675-bfc926bad923",
+                "resourcePath": "objects\\obj_player2Land\\obj_player2Land.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "228b58b1-59d1-4655-82cb-2396f6a116c8",
             "Value": {
                 "id": "4ecce377-76f7-4513-a986-9074c4977cc3",
                 "resourcePath": "sprites\\spr_Lightning\\spr_Lightning.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2596e30e-c39f-49cc-a152-7750f101c3e3",
+            "Value": {
+                "id": "ab534d46-6dad-41c1-ac85-7ca49c8b01d5",
+                "resourcePath": "views\\2596e30e-c39f-49cc-a152-7750f101c3e3.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -122,8 +146,16 @@
             "Key": "2767b4a5-ce30-4ff1-ba11-7a77c5d2a7de",
             "Value": {
                 "id": "51c48d28-7b10-4e4b-b22c-b03e112c84c3",
-                "resourcePath": "objects\\obj_playerLand\\obj_playerLand.yy",
+                "resourcePath": "objects\\obj_player1Land\\obj_player1Land.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "29d2661b-d9e3-4eb3-b67e-5014a2216a1a",
+            "Value": {
+                "id": "35a1d36e-fd2b-4d9b-a11e-c9c0f1afdc30",
+                "resourcePath": "views\\29d2661b-d9e3-4eb3-b67e-5014a2216a1a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -146,7 +178,7 @@
             "Key": "34aa8233-ef82-4f53-8ab1-1d88284267b7",
             "Value": {
                 "id": "a77e1a6a-cfd5-4a07-a038-d9e259d43b87",
-                "resourcePath": "objects\\obj_GunLand\\obj_GunLand.yy",
+                "resourcePath": "objects\\obj_GunLandP1\\obj_GunLandP1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -159,11 +191,35 @@
             }
         },
         {
+            "Key": "3a1e166f-57e5-43c3-b23a-5d675ed6b33b",
+            "Value": {
+                "id": "2816eb1c-93f6-4410-88c3-344f585fc243",
+                "resourcePath": "sprites\\spr_player2LandRun\\spr_player2LandRun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3c8f40c3-c7df-419c-aaac-60996a756748",
+            "Value": {
+                "id": "854d1be9-22af-48be-9efc-f9fb572d32af",
+                "resourcePath": "views\\3c8f40c3-c7df-419c-aaac-60996a756748.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3f83dedf-737d-462c-8f1d-ca8ecb68919a",
             "Value": {
                 "id": "0c1e6839-5a4e-4fdb-b5c8-240df6e3470e",
                 "resourcePath": "sprites\\spr_ShotLand\\spr_ShotLand.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3f88b1b5-1a60-4cf8-8c12-ebdf853f1680",
+            "Value": {
+                "id": "43cb8b4b-1c5e-496f-9852-8fb44168d2d7",
+                "resourcePath": "fonts\\WinScreen\\WinScreen.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -279,6 +335,30 @@
             }
         },
         {
+            "Key": "5f5d7a5a-8ca0-4e58-91f7-7585c0b59c54",
+            "Value": {
+                "id": "c7d55fcc-3306-4723-a3e4-bb0ad32f4b71",
+                "resourcePath": "sprites\\spr_player2LandAir\\spr_player2LandAir.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "613dd294-f6ca-4f0a-afa4-7a855e0e4a28",
+            "Value": {
+                "id": "fe650263-8228-49de-9fa1-ed1d1e63444e",
+                "resourcePath": "views\\613dd294-f6ca-4f0a-afa4-7a855e0e4a28.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "623e301a-ad53-4948-8e3a-9f1dd69bdc18",
+            "Value": {
+                "id": "9cda5806-8091-4c2f-af4f-ec53807d7261",
+                "resourcePath": "sprites\\spr_player2Land\\spr_player2Land.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6552ecfa-21b6-40bc-9b00-25f8afd9bf2a",
             "Value": {
                 "id": "0cbdf9e7-3021-4a95-9d98-c22a5b287546",
@@ -292,6 +372,14 @@
                 "id": "20e38cba-d1fd-4f7e-a64c-80a78b06ef08",
                 "resourcePath": "views\\68d20a77-cdf8-42ce-9c12-28dc875ffa68.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6a383cfb-edf0-4e3a-b33c-bf8fc6a49736",
+            "Value": {
+                "id": "5b48815f-4a78-4cf8-8874-fc2c7246ffff",
+                "resourcePath": "objects\\obj_GunLandP2\\obj_GunLandP2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -394,7 +482,7 @@
             "Key": "948dad20-7a15-4b94-b37d-74b1bcf1fd5a",
             "Value": {
                 "id": "c15a7ce9-0375-4ce8-80c2-ac3153ed6f7d",
-                "resourcePath": "rooms\\TitleScreen_RoomTest\\TitleScreen_RoomTest.yy",
+                "resourcePath": "rooms\\WinScreen_Room\\WinScreen_Room.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -532,14 +620,6 @@
                 "id": "0ee8d03e-d7cc-41af-bbdf-7ba2454aa8c3",
                 "resourcePath": "views\\aa3dd626-2e42-4b68-89cf-8c92a1958e76.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "aa83113d-40ff-4fa2-b29d-068d7ffa7d48",
-            "Value": {
-                "id": "8eb5779d-2ba5-4adf-9e02-7c922816f3cd",
-                "resourcePath": "rooms\\WinScreen_Room\\WinScreen_Room.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

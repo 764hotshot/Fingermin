@@ -1,0 +1,1 @@
+targetplayer = obj_player1Land
