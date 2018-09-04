@@ -1,4 +1,6 @@
 with (obj_playerLand)
 {
-	room_goto(room)
+	x = xstart
+	y = ystart
 }
+room_restart()
