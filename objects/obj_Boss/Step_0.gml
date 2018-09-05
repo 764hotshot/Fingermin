@@ -21,8 +21,8 @@ if(health <= 0)
 
 if(LightningWait >= 60)
 {
-	instance_create_layer(WarningX, 700, "Lightning_Layer", obj_Lightning);
-
+	instance_create_layer(obj_player1Land.x, 700, "Lightning_Layer", obj_Lightning);
+	if (global.TwoPlayer = 1) instance_create_layer(obj_player2Land.x, 700, "Lightning_Layer", obj_Lightning);
 	LightningWait = 0;
 
 	with(obj_Warning) instance_destroy();
@@ -30,7 +30,6 @@ if(LightningWait >= 60)
 
 if(LightningWait == 20)
 {
-	instance_create_layer(global.PlayerX, 700, "Lightning_Layer", obj_Warning);
-
-	WarningX = global.PlayerX;
+	instance_create_layer(obj_player1Land.x, 700, "Lightning_Layer", obj_Warning);
+	if (global.TwoPlayer = 1) instance_create_layer(obj_player2Land.x, 700, "Lightning_Layer", obj_Warning);
 }

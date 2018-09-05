@@ -1,7 +1,6 @@
 MoveChangeWait = 60;
 
-
-health = 5;
+health = 25;
 
 LightningWait = 0;
 
