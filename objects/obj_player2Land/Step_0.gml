@@ -6,7 +6,7 @@ if (abs(gamepad_axis_value(4, gp_axislh)) > 0.2)
 	
 }
 
-if (gamepad_button_check(4, gp_face1)) key_jump = 1;
+if (gamepad_button_check(4, gp_shoulderlb)) key_jump = 1;
 else key_jump = 0;
 
 key_right /= .69 // .69 is the max right value with a NSwtich Pro Controller you can get
