@@ -1,1 +1,1 @@
-if (gamepad_is_connected(0)) instance_create_layer(0, 0, "instances", obj_Cutscene)
+//if (gamepad_is_connected(4)) instance_create_layer(0, 0, "Instances", obj_Cutscene);

@@ -1,13 +1,16 @@
-if (abs(gamepad_axis_value(0, gp_axislh)) > 0.2)
+if (abs(gamepad_axis_value(4, gp_axislh)) > 0.2)
 {
 
-	key_right = abs(min(gamepad_axis_value(0, gp_axislh), 0));
-	key_left = max(gamepad_axis_value(0, gp_axislh), 0);
+	key_left = abs(min(gamepad_axis_value(4, gp_axislh), 0));
+	key_right = max(gamepad_axis_value(4, gp_axislh), 0);
 	
 }
 
-if (gamepad_button_check_pressed(0, gp_face1)) key_jump = 1;
+if (gamepad_button_check(4, gp_face1)) key_jump = 1;
+else key_jump = 0;
 
+key_right /= .69 // .69 is the max right value with a NSwtich Pro Controller you can get
+key_left /= .77 // .77 is the max negitive value with a NSwtich Pro Controller you can get
 var move = key_right - key_left;
 
 hsp = move * walksp;
@@ -93,4 +96,5 @@ else
 }
 if (hsp != 0) image_xscale = sign(hsp);
 
-
+key_right = 0
+key_left = 0

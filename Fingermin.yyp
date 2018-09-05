@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "15e64a9e-3f82-4e2d-9c22-0ebc91cdd361",
+            "Value": {
+                "id": "903f9b29-2607-4cbe-aa0b-3904e44c560f",
+                "resourcePath": "objects\\obj_CutsceneLevelCompleteP2\\obj_CutsceneLevelCompleteP2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1653bf62-e785-46aa-a750-af967efc5abf",
             "Value": {
                 "id": "7e3189a8-04a8-40c3-9adc-8158f49968a1",
@@ -826,7 +834,7 @@
             "Key": "ff1dbaf8-6de1-4e6a-a5a7-52a0e7cf87e0",
             "Value": {
                 "id": "e8940a78-97fa-400a-91fa-f85cb41faaa2",
-                "resourcePath": "objects\\obj_CutsceneLevelComplete\\obj_CutsceneLevelComplete.yy",
+                "resourcePath": "objects\\obj_CutsceneLevelCompleteP1\\obj_CutsceneLevelCompleteP1.yy",
                 "resourceType": "GMObject"
             }
         },
