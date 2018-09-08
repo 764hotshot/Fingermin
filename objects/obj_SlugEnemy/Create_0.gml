@@ -5,3 +5,7 @@ enhsp = 3;
 envsp = 0;
 
 hp = 100
+
+KnockbackStart = 0;
+
+KnockbackEnd = 0;

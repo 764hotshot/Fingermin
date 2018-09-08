@@ -1,6 +1,5 @@
-if(!variable_instance_exists(id, "health")) health = 0;
-health += -1;
+hp += -1;
 
-with (obj_shotLand) instance_destroy()
+with (obj_ShotSpace) instance_destroy()
 
-global.BossHP += -1;
+with (obj_HealthBar) BossHP += -1;

@@ -1,9 +1,8 @@
-global.BossHPScale = 0;
+BossHPScale = 0;
 
-global.BossHPScale = global.BossHP/25;
-global.variable = 0;
+BossHPScale = BossHP/1000;
 
-image_xscale = global.BossHPScale;
+image_xscale = BossHPScale;
 
 
 x = 41;

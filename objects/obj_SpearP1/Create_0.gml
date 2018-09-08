@@ -1,0 +1,1 @@
+if global.HasSpear = false instance_destroy()

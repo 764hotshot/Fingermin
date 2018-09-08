@@ -18,6 +18,7 @@ if shootWait >= 6
 {
 	if gamepad_button_check(4, gp_shoulderrb)
 	{
+		obj_controllerPointer.visible = true;
 		with (instance_create_layer(x, y, "Shot", obj_shotLand))
 		{
 			speed = 25

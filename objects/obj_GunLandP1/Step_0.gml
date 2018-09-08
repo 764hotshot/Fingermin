@@ -7,7 +7,7 @@ shootWait ++
 
 recoil = max(0, -1)
 
-if shootWait >= 6
+if shootWait >= 0
 {
 	if mouse_check_button(mb_left)
 	{

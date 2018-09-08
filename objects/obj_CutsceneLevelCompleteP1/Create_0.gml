@@ -1,1 +1,1 @@
-hspeed = 1;
+hspeed = sign(x);

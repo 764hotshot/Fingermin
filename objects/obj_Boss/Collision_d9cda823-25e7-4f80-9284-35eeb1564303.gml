@@ -1,4 +1,4 @@
-if(!variable_instance_exists(id, "health")) health = 0;
-health += -1;
+hp -= -1;
 
-global.BossHP += -1;
+
+with (obj_HealthBar) BossHP += -1;
