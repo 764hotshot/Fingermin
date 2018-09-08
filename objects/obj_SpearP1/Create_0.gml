@@ -1,1 +1,1 @@
-if global.HasSpear = false instance_destroy()
+if global.P1HasSpear = false instance_destroy()

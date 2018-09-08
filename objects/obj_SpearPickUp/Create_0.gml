@@ -1,1 +1,1 @@
-image_angle = 310
+image_angle = 40

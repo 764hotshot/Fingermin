@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "ddcadbec-0d1d-4620-8101-4b45ac46dc43"
+        },
+        {
+            "id": "92487b78-a7df-40e3-82a2-c4933e52930f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "ddcadbec-0d1d-4620-8101-4b45ac46dc43"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,7 +63,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "obj_player2Land",
-            "varName": "follow",
+            "varName": "ltfollow",
             "varType": 0
         },
         {
@@ -81,7 +91,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "obj_player1Land",
-            "varName": "scaleFollow",
+            "varName": "rtfollow",
             "varType": 0
         }
     ],

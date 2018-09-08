@@ -31,6 +31,6 @@ if(LightningWait == 20)
 {
 	instance_create_layer(obj_player1Land.x, 700, "Lightning_Layer", obj_Warning);
 	obj_Warning.x = Warning1X
-	if (global.TwoPlayer = 1) instance_create_layer(obj_player2Land.x, 700, "Lightning_Layer", obj_Warning);
-	obj_Warning.x = Warning2X
+	if (global.TwoPlayer = 1){ instance_create_layer(obj_player2Land.x, 700, "Lightning_Layer", obj_Warning); obj_Warning.x = Warning2X; }
+	
 }

@@ -1,0 +1,8 @@
+//draw_text(500, 25, "camX " + string(camX))
+//draw_text(500, 50, "camY " + string(camY))
+//draw_text(500, 75, "camW " + string(camW))
+//draw_text(500, 100, "camH " + string(camH))
+//draw_text(500, 150, "ltPlayer " + string(ltPlayer))
+//draw_text(500, 175, "rtPlayer " + string(rtPlayer))
+//draw_text(500, 200, "ltPlayer.x " + string(ltPlayer.x))
+//draw_text(500, 225, "rtPlayer.x " + string(rtPlayer.x))
