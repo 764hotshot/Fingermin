@@ -22,57 +22,51 @@ if global.TwoPlayer = true {
 		ltPlayer = obj_player1Land;
 		rtPlayer = obj_player2Land;
 	}
+	
+	if (obj_player1Land.y < obj_player2Land.y){
+		dnPlayer = obj_player2Land;
+		upPlayer = obj_player1Land;
+	}
+	
+	else {
+		dnPlayer = obj_player1Land;
+		upPlayer = obj_player2Land;
+	}
 }
 else{ 
 	ltPlayer = obj_player1Land;
 }
 
-//camera_set_view_target(cam, ltPlayer)
-
-//if (instance_exists(ltPlayer))
-//{
-//	xTo = ltPlayer.x;
-//	yTo = ltPlayer.y;
-//}
-
-//xTo = obj_player1Land.x
-//yTo = obj_player1Land.y
-
-
-// Update Destination
-
-//x = clamp(xTo, view_w_half, room_width - view_w_half)
-//y = clamp(yTo, view_h_half, room_height - view_h_half)
-
-//x += (ltPlayer.x - x) / 25;
-//y += (ltPlayer.y - y) / 25;
-
-
-
-camX = clamp(camX, 0, room_width - camW)
-camY = clamp(camY, room_height - camH, 0)
+camX = clamp(camX, 0, room_width - defaultCamW)
+camY = clamp(camY, 0, room_height - defaultCamH)
 
 //MATH
 if global.TwoPlayer{
-camW = (rtPlayer.x + Xborder) - (ltPlayer.x - Xborder)
-camX = max(0, (ltPlayer.x - Xborder))
-camH = camW/AR
-}
-// Zoom Out To Players
+	ltPlayerX = ltPlayer.x
+	ltPlayerY = ltPlayer.y
+	rtPlayerX = rtPlayer.x
+	rtPlayerY = rtPlayer.y
+	dnPlayerY = dnPlayer.y
+	upPlayerY = upPlayer.y
+	
+	camW = (rtPlayerX + Xborder) - (ltPlayerX - Xborder)
+	camX = max(0, (ltPlayerX - Xborder))
+	camY = max(0, dnPlayerY - defaultCamH)
+	camH = max(dnPlayerY + Yborder, upPlayerY + Yborder) - camY
 
-//if x > obj_player1Land x = obj_player1Land - 50;
-//if y > obj_player1Land y = obj_player1Land - 50;
-//if (camW < rtPlayer.x) Resize = rtPlayer.x - camW + 50;
-//if (camH < rtPlayer.y) Resize = rtPlayer.y - camH + 50;
+	oldCamH = camH
+	oldCamW = camW
+	varAR = AR
+	varDefCamH = defaultCamH
+	varDefCamW = defaultCamW
+	camH = max(oldCamH, oldCamW/AR, defaultCamH)
+	camW = max(oldCamW, oldCamH*AR, defaultCamW)
 
-// Update Camera View
-if (global.TwoPlayer = true){
-	//if (camW < rtPlayer or camH < rtPlayer) camera_set_view_size(cam, camW * AR / Resize, camH * Resize * AR);
+	// Update Camera View
 	camera_set_view_size(cam, camW, camH);
-	if (camW < 1024 or camH < 768) camera_set_view_size(cam, 1024, 768);
-	camera_set_view_pos(cam, camX, camY - 50);
-}
+	camera_set_view_pos(cam, camX, camY);
 
+}
 
 if (global.TwoPlayer = false){ camera_set_view_target(cam, obj_player1Land); camera_set_view_border(cam, view_w_half, view_h_half)}
 

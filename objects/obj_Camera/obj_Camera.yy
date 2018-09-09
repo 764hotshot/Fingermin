@@ -53,20 +53,6 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "cb7637be-4d6a-47bc-9678-5d831161f989",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "obj_player2Land",
-            "varName": "ltfollow",
-            "varType": 0
-        },
-        {
             "id": "98f0172f-9a0e-46ba-a4ea-d1a786f6cece",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -78,20 +64,6 @@
             "resourceFilter": 1023,
             "value": "view_camera[0]",
             "varName": "cam",
-            "varType": 0
-        },
-        {
-            "id": "5df8f9cb-77af-40f8-bf57-dce55711f3d9",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "obj_player1Land",
-            "varName": "rtfollow",
             "varType": 0
         }
     ],

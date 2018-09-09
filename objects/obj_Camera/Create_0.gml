@@ -10,4 +10,7 @@ view_h_half = camH * 0.5;
 Resize = 0;
 xTo = xstart
 yTo = ystart
-#macro AR (1024/768)
+
+#macro defaultCamW 1024
+#macro defaultCamH 768
+#macro AR (defaultCamW/defaultCamH)
