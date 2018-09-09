@@ -1,6 +1,6 @@
 BossHPScale = 0;
 
-BossHPScale = BossHP/1000;
+BossHPScale = BossHP/300;
 
 image_xscale = BossHPScale;
 

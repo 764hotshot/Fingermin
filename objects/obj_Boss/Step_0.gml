@@ -13,12 +13,12 @@ if(MoveChangeWait >= 60)
 	MoveChangeWait = 0;
 }
 
-if (hp <= 0)
+if hp <= 0
 {
 	room_goto(WinScreen_Room);
 }
 
-if(LightningWait >= 60)
+if(LightningWait >= 120)
 {
 	instance_create_layer(Warning1X, 700, "Lightning_Layer", obj_Lightning);
 	if (global.TwoPlayer = 1) instance_create_layer(Warning2X, 700, "Lightning_Layer", obj_Lightning);
@@ -27,10 +27,10 @@ if(LightningWait >= 60)
 	with(obj_Warning) instance_destroy();
 }
 
-if(LightningWait == 20)
+if(LightningWait == 40)
 {
-	instance_create_layer(obj_player1Land.x, 700, "Lightning_Layer", obj_Warning);
-	obj_Warning.x = Warning1X
-	if (global.TwoPlayer = 1){ instance_create_layer(obj_player2Land.x, 700, "Lightning_Layer", obj_Warning); obj_Warning.x = Warning2X; }
+	instance_create_layer(obj_player1Land.x, 0, "Lightning_Layer", obj_Warning);
+	Warning1X = obj_player1Land.x
+	if (global.TwoPlayer = 1){ instance_create_layer(obj_player2Land.x, 0, "Lightning_Layer", obj_Warning) Warning2X = obj_player2Land.x; }
 	
 }

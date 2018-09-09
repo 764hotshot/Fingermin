@@ -29,13 +29,16 @@ if (place_meeting(x, y + envsp, obj_wall))
 		y = y + sign(envsp);
 	}
 	envsp = 0;
-	if KnockbackStart = 1 
-	{
-		enhsp = sign(enhsp) * 6;
-		envsp = -10;
-		KnockbackStart = 0;
-		
-	}
+	if (KnockbackEnd == false){ sign(enhsp); KnockbackEnd = true}
+
+}
+
+if KnockbackStart = 1 
+{
+	enhsp = sign(enhsp) * 6;
+	envsp = -10;
+	KnockbackStart = 0;
+	KnockbackEnd = false
 }
 
 image_xscale = sign(enhsp);

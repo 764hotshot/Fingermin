@@ -1,3 +1,3 @@
 BossHPScale = 0;
 
-BossHP = 1000
+BossHP = 0

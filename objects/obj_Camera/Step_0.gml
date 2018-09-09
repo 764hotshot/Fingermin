@@ -3,6 +3,7 @@
 // Reset Variables
 
 Xborder = camera_get_view_border_x(cam)
+Yborder = camera_get_view_border_y(cam)
 camY = camera_get_view_y(cam)
 camX = camera_get_view_x(cam)
 camW = camera_get_view_width(cam)

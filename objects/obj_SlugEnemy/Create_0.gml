@@ -8,4 +8,4 @@ hp = 100
 
 KnockbackStart = 0;
 
-KnockbackEnd = 0;
+KnockbackEnd = 1;
