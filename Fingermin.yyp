@@ -2,7 +2,7 @@
     "id": "128eec5c-ad40-4449-bf4d-f3e313149c1f",
     "modelName": "GMProject",
     "mvc": "1.0",
-    "IsDnDProject": true,
+    "IsDnDProject": false,
     "configs": [
         
     ],
@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "12eab7df-f616-40c4-ad7a-cfe60cf3e921",
+            "Value": {
+                "id": "5da9fc7d-f454-4a81-af20-13bd4afedd94",
+                "resourcePath": "objects\\obj_Shurican\\obj_Shurican.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "13976e2c-cae5-4df5-aa98-a49c487e8c03",
             "Value": {
                 "id": "c08e357b-2529-454b-bf27-d07b66451e3b",
@@ -119,6 +127,22 @@
             }
         },
         {
+            "Key": "1e7d03bb-a0a5-4322-927d-3114f033f0dd",
+            "Value": {
+                "id": "b7369d70-62ac-4e16-83c4-da36f66aa7a4",
+                "resourcePath": "objects\\obj_ShurikanHolderP1\\obj_ShurikanHolderP1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1ec0ad6f-da98-4cc3-a469-c922bf2afcc0",
+            "Value": {
+                "id": "fa978d4d-26c5-4d77-8411-54e7792fdbff",
+                "resourcePath": "objects\\obj_mousePointer\\obj_mousePointer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "217a3e1b-2714-4d0b-99bc-be8bfb066367",
             "Value": {
                 "id": "2de6edc1-f5db-4fc5-b699-2c3991390923",
@@ -140,6 +164,14 @@
                 "id": "4ecce377-76f7-4513-a986-9074c4977cc3",
                 "resourcePath": "sprites\\spr_Lightning\\spr_Lightning.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2325c6fa-5673-4077-a853-95ebd528596e",
+            "Value": {
+                "id": "6ed7d592-bb00-4f97-b7b7-1a935dc82f95",
+                "resourcePath": "objects\\obj_ShuricanPickUp\\obj_ShuricanPickUp.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -447,6 +479,14 @@
             }
         },
         {
+            "Key": "6a1378f6-6d6a-4788-999a-966f8812a852",
+            "Value": {
+                "id": "064d5885-8da4-42a5-8a04-4a92ce8e9066",
+                "resourcePath": "objects\\obj_ShurikanHolderP2\\obj_ShurikanHolderP2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6a383cfb-edf0-4e3a-b33c-bf8fc6a49736",
             "Value": {
                 "id": "5b48815f-4a78-4cf8-8874-fc2c7246ffff",
@@ -507,6 +547,14 @@
             "Value": {
                 "id": "0e570e21-3d1c-419a-bde4-ab974e1935d6",
                 "resourcePath": "sprites\\spr_Shot\\spr_Shot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "80d5db76-85df-44b6-9308-904ede46fbf1",
+            "Value": {
+                "id": "828f5fb7-f08e-4f5d-9d24-95eb4643b028",
+                "resourcePath": "sprites\\spr_Shurican1\\spr_Shurican1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -759,6 +807,14 @@
             }
         },
         {
+            "Key": "c9493c7a-75c7-4205-8853-b2132133c59c",
+            "Value": {
+                "id": "b7e95f6b-33d0-4072-94f1-db124b9ba122",
+                "resourcePath": "views\\c9493c7a-75c7-4205-8853-b2132133c59c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "184fac88-87b4-4aea-ba1b-eea97ece86e9",
@@ -855,6 +911,14 @@
             }
         },
         {
+            "Key": "e379a63a-4b00-4af1-9acb-f895197f2d59",
+            "Value": {
+                "id": "127169b6-e2eb-42f6-b9b6-7bcc6e409131",
+                "resourcePath": "sprites\\spr_mousePointer\\spr_mousePointer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e5bda0d0-eed6-4d03-9ffb-a9f61b08f55d",
             "Value": {
                 "id": "b4eba82f-b18f-4c9b-99d0-32aea022007b",
@@ -875,6 +939,14 @@
             "Value": {
                 "id": "2f2b2914-7fba-4c30-9289-5671ac17e4d7",
                 "resourcePath": "sprites\\Lives\\Lives.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ecdd2861-10b3-4d79-923f-411c6e7e3299",
+            "Value": {
+                "id": "7dbd4023-8d07-4b74-b33f-fd33061f8352",
+                "resourcePath": "sprites\\spr_Shurican\\spr_Shurican.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -1,6 +1,6 @@
 1.0.0←ed6a955d-5826-4f98-a450-10b414266c27←ed6a955d-5826-4f98-a450-10b414266c27|{
     "option_gameguid": "54d1502c-7413-462e-a611-349b4c09ee45",
-    "option_lastchanged": "01 September 2018 19:18:05",
+    "option_lastchanged": "09 September 2018 17:40:23",
     "option_author": "Ryan Kinder",
     "option_sci_usesci": true,
     "option_game_speed": 60
