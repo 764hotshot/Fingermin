@@ -10,7 +10,7 @@ if (abs(controllerh) > 0.2) || (abs(controllerv) > 0.2)
 
 
 if (gamepad_button_check(4, gp_shoulderrb)) if (delay >= 10){ 
-	with (instance_create_layer(x, y, "Shot", obj_Shurican)){
+	with (instance_create_layer(x, y, "Shot", obj_Shurikan)){
 	vsp = -15
 	if (controllerrange != 0) hsp = sign(controllerrange) * 5;
 	else hsp = sign(obj_player2Land.image_xscale) * 5;

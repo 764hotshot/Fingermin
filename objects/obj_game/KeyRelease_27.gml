@@ -1,1 +1,1 @@
-room_goto(Platfomer3_Room)
+room_goto(WinScreen_Room)

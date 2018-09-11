@@ -74,7 +74,7 @@
             "Key": "12eab7df-f616-40c4-ad7a-cfe60cf3e921",
             "Value": {
                 "id": "5da9fc7d-f454-4a81-af20-13bd4afedd94",
-                "resourcePath": "objects\\obj_Shurican\\obj_Shurican.yy",
+                "resourcePath": "objects\\obj_Shurikan\\obj_Shurikan.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -228,6 +228,14 @@
                 "id": "89fde904-6247-4b18-a4fd-416ae08e3292",
                 "resourcePath": "fonts\\font0\\font0.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "30723be8-778c-4441-b948-de8801636edb",
+            "Value": {
+                "id": "5bfd5de7-d8c7-484f-a4fe-4ce861543567",
+                "resourcePath": "sprites\\spr_ShuricanP2\\spr_ShuricanP2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -607,6 +615,14 @@
             }
         },
         {
+            "Key": "91dff586-dcc3-4da0-bb3f-4bdf3a7932fd",
+            "Value": {
+                "id": "eb92de4a-8ca0-4d42-940f-e5184140cd78",
+                "resourcePath": "sprites\\spr_Boomerang\\spr_Boomerang.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "948dad20-7a15-4b94-b37d-74b1bcf1fd5a",
             "Value": {
                 "id": "c15a7ce9-0375-4ce8-80c2-ac3153ed6f7d",
@@ -636,6 +652,14 @@
                 "id": "b549fd9f-9f0e-4abe-9053-9a05cfeec936",
                 "resourcePath": "views\\95472b51-4a33-4896-85f3-648386fe852a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "960ea812-0879-4a16-a041-1b665ffc4894",
+            "Value": {
+                "id": "04a6b2b3-ce90-4269-ac9c-cc579025f2ae",
+                "resourcePath": "objects\\obj_BommerangP1\\obj_BommerangP1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -764,6 +788,14 @@
                 "id": "181da89a-6e7c-4694-8b46-155bb98aa65a",
                 "resourcePath": "objects\\obj_shotLand\\obj_shotLand.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ae2a3bbd-2129-439b-923f-b50fdd3183e2",
+            "Value": {
+                "id": "51b1902e-80e2-4a13-9a67-48a1ca168ea1",
+                "resourcePath": "sprites\\spr_ShuricanP1\\spr_ShuricanP1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -911,6 +943,14 @@
             }
         },
         {
+            "Key": "e11cdc77-f494-4a3a-861b-82d4e9aea239",
+            "Value": {
+                "id": "36dc904c-ea2c-462d-862e-a7cdde8d8a56",
+                "resourcePath": "objects\\obj_BoomerangHolderP1\\obj_BoomerangHolderP1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e379a63a-4b00-4af1-9acb-f895197f2d59",
             "Value": {
                 "id": "127169b6-e2eb-42f6-b9b6-7bcc6e409131",
@@ -932,6 +972,14 @@
                 "id": "1f7ffce0-88d9-4193-9c63-7039f2465946",
                 "resourcePath": "sprites\\spr_playerLandAir\\spr_playerLandAir.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ea912e91-905e-42bf-9148-d1a5b46f506d",
+            "Value": {
+                "id": "73e803da-7e54-4f85-a559-ae2860a2ad44",
+                "resourcePath": "objects\\obj_StartButtonSave\\obj_StartButtonSave.yy",
+                "resourceType": "GMObject"
             }
         },
         {

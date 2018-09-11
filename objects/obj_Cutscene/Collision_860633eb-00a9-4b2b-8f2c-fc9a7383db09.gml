@@ -1,2 +1,3 @@
 vspeed = -5
-with (obj_player1Land) instance_destroy()
+with (obj_player2Land) instance_destroy()
+instance_deactivate_object(obj_Camera)

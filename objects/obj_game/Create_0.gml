@@ -1,3 +1,5 @@
+#macro SAVEFILE "Save.sav"
+
 global.TwoPlayer = 0;
 
 global.P1HasSpear = false;
